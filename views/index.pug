@@ -1,0 +1,11 @@
+html
+	head
+		link(rel="stylesheet", href="/css/style.css", type="text/css")
+	body
+		br
+		header
+			h1 File Metadata Microservice!
+		.form-area
+			form(action="/", method="POST", enctype="multipart/form-data")
+				input(type="file", name="fileToUpload", id="fileToUpload")
+				input(type="submit")
